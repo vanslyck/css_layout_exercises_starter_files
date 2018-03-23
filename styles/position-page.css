@@ -1,1 +1,79 @@
+.navpadding {
+padding-left: 60px;
+padding-right: 60px;}
+
+nav {
+	background-color: grey;
+	height: 100px;
+	/*padding-left: 60px;
+	padding-right: 60px;*/	
+	/*position: fixed;*/
+	width: 100%;
+}
+
+.nav-img {
+	height: 70px;
+	box-sizing: border-box;
+	position: absolute;
+	left: 100px;
+	margin-top: 15px;
+	margin-right: 10px;
+	border-radius: 100px;
+	border: solid black 2px;
+}
+
+ul {
+	margin-top: 0px;
+}
+
+ul > li{
+	position: relative;
+	display: inline-block;
+	box-sizing: border-box;	
+	left: 110px;
+	padding-top: 40px;	 
+}
+
+nav li::after {
+  content: "|";
+  margin-left: 5px;
+}
+
+html {
+	background: url(../images/outerspace_landscape.jpeg) no-repeat center center fixed;
+	background-size: cover;
+}
+
+
+/* Styling for cat img */
+
+.cat-img{
+	width: 200px;
+	left: -90px; 
+	top: -90px;
+	position: absolute;
+}
+
+
+/* Styling for dog img */
+
+.dog-img{
+	width: 200px;
+	right: -100px; 
+	bottom: -60px;
+	position: absolute;
+}
+
+/* Styling for dotted box */
+
+.dotted-box{
+	height: 300px;
+	width: 600px;
+	margin-top: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	border: 10px green dotted;
+}
+
 
